@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Form</title>
+</head>
+<body>
+<h2>Registration Form</h2>
+	<form action="saveservlet" method="post">
+		<table>
+			<tr>
+				<td>Name</td>
+				<td><input type="text" name="ename"></td>
+			</tr>
+			<tr>
+				<td>password</td>
+				<td><input type="password" name="epassword"></td>
+			</tr>
+			<tr>
+				<td>country</td>
+				<td><select name="ecountry">
+					<option>india</option>
+					<option>america</option>
+					<option>canada</option>
+					<option>austreliya</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>salary</td>
+				<td><input type="text" name="esalary"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Register"></td>
+			</tr>
+			
+		</table>
+	</form>
+	<a href="viewemployee">View All employee Data</a>
+
+</body>
+</html>
